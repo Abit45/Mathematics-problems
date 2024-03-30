@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: url(97209d8e34a69cb9a3cf6a9df0fafed6-1\ \(1\).gif);
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #03e9f4;
+    color:red;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25ox #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+    -webkit-box-reflect:below 1px linear-gradient(transparent,#0005);            
+}
+.head {
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+}
+.head span {
+    color: orangered;
+}
+B {
+    color: black;
+}
+.head h2 {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.spn {
+    color: #000;
+}
+
+.pra
+{
+    font-size: 18px;
+    color: #000;
+}
+span
+{
+    color: orange;
+}
+.pra{
+    color: #555;
+    line-height: 22px;
+}
+.pra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+body {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+@media (max-width: 1536px) {
+    body {
+       max-width: 1280px;
+    }
+}
+@media (max-width: 1280px){
+    body {
+        max-width: 1024px;
+    }
+}
+@media (max-width: 1024px){
+    body {
+        max-width: 768px;
+    }
+}
+@media (max-width: 768px){
+    body {
+        max-width: 640px;
+    }
+}
+@media (max-width: 640px){
+    body {
+        max-width: 475px;
+    }
+}
+@media (max-width: 475px){
+    body {
+        max-width: 100%;
+    }
+}
+
+
+
